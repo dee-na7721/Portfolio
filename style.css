@@ -8,6 +8,16 @@
   margin-bottom: 175px;
   /* z-index: 1;   prevents images floating over fixed navbar  */
 }
+#loader {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+
+  background: black
+    url("https://media4.giphy.com/media/RgzryV9nRCMHPVVXPV/200w.webp?cid=ecf05e475eyxoxadcfdwmi74xwe89wgns1h8m5lq85z4ihb1&rid=200w.webp")
+    no-repeat center;
+  z-index: 9999;
+}
 
 #navbar {
   float: right;
